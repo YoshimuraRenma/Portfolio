@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- reset.css ress -->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css">
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--slickの読み込み-->
+  	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <!-- Hero section -->
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Port<span>folio</span></h2>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ホーム</a></li>
+            </ul>
+            <a href="#" class="btn">お問い合わせ</a>
+        </nav>
+        <div class="content">
+            <div class="body">
+                <div class="portfolioInfo">
+                    <h4></h4>
+                    <h1>Port<span>folio</span></h1>
+                    <h3>HTML/CSS/Illustrator/Photoshop</h3>
+                    <div class="newslatter">
+                        <form>
+                            <input type="email" name="email" id="mail" placeholder="メールアドレスを入力"
+                            />
+                            <input type="submit" name="submit" value="お問い合わせ" />
+                        </form>
+                    </div>
+                </div>
+                <img src="./img/ポートフォリオ用.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- about me section-->
+    <section class="about">
+        <div class="main">
+            <img src="./img/ポートフォリオ用.png" alt="">
+            <div class="about-text">
+                <h2>自己紹介</h2>
+                <h5></h5>
+                <p>専門学校でWebデザインやグラフィックデザインなどを学んできました。illustratorを使用した作品作りを得意としておりそのほかにもアナログ作品やPhotoshopを使用した画像加工などもある程度行うことができます。</p>
+                <button class="button">お問い合わせ</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <div class="portfolio">
+        <div class="title">
+            <h2>ポートフォリオ</h2>
+        </div>
+        <ul class="slider">
+            <li><img src="img/作品展_web吉村_A3-0925-01.jpg" alt=""></li>
+            <li><img src="img/CD表ジャケット.jpg" alt=""></li>
+            <li><img src="img/CD内面.jpg" alt=""></li>
+            <li><img src="img/CD裏.jpg" alt=""></li>
+            <li><img src="img/インレイ内面イラスト.jpg" alt=""></li>
+            <li><img src="img/写真課題.jpg" alt=""></li>
+            <li><img src="img/写真課題_シーン_1Fweb吉村0117.jpg" alt=""></li>
+            <li><img src="img/車広告.jpg" alt=""></li>
+            <li><img src="img/te_10.jpeg" alt=""></li>
+        </ul>
+
+        <!-- <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5></h5>
+                <div class="pragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem inventore natus, ab dolorum dolorem nam recusandae facere deserunt nesciunt eius error possimus aut sint. Perspiciatis non inventore molestias alias quos commodi fugiat nulla ipsum! Quae iste porro repellendus vel.</p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">もっと読む</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bell"></i>
+                <h5>Web Developer</h5>
+                <div class="pragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem inventore natus, ab dolorum dolorem nam recusandae facere deserunt nesciunt eius error possimus aut sint. Perspiciatis non inventore molestias alias quos commodi fugiat nulla ipsum! Quae iste porro repellendus vel.</p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">もっと読む</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h5>Web Developer</h5>
+                <div class="pragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem inventore natus, ab dolorum dolorem nam recusandae facere deserunt nesciunt eius error possimus aut sint. Perspiciatis non inventore molestias alias quos commodi fugiat nulla ipsum! Quae iste porro repellendus vel.</p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">もっと読む</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-user"> </i>
+                <h5>Web Developer</h5>
+                <div class="pra">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+                    inventore excepturi alias deleniti minus soluta totam non animi
+                    voluptates magni!
+                  </p>
+                  <p style="text-align: center">
+                    <a href="#" class="button">もっと読む</a>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-bell"> </i>
+                <h5>Web Developer</h5>
+                <div class="pra">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+                    inventore excepturi alias deleniti minus soluta totam non animi
+                    voluptates magni!
+                  </p>
+                  <p style="text-align: center">
+                    <a href="#" class="button">もっと読む</a>
+                  </p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+      
+          <!-- Contact Me -->
+          <div class="contact">
+            <p>気になる方は私にお問い合わせください。</p>
+            <a href="#" class="button-two">お問い合わせ</a>
+          </div>
+      
+          <!-- footer -->
+          <footer>
+          </footer>
+<!-- <script src="script.js"></script> -->
+<script src="slide.js"></script> 
+</body>
+</html>
